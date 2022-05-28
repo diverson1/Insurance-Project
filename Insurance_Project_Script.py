@@ -1,4 +1,4 @@
-# Importing CSV and seperating out what data I need
+# Importing CSV
 import pandas as pd
 df= pd.read_csv('https://raw.githubusercontent.com/diverson1/Medical-Insurance-Project/master/insurance.csv')
 print(df)
@@ -35,7 +35,7 @@ average_under_40_cost = under_40_cost / under_40_count
 average_female_cost = female_cost / female_count
 average_male_cost = male_cost / male_count
     
-#Converting the averages
+#Converting the averages into more legible output
 
 print('Average cost for individuals under 40 years of age is $' + str(round(average_under_40_cost, 2)))
 print('Average cost for individuals equal to or over 40 years of age is $' + str(round(average_equal_or_over_40_cost, 2)))
@@ -44,7 +44,7 @@ print('Average cost for individuals of female gender is $' + str(round(average_f
 
 
 
-# Now that I have gathered together my data into a format that is easier to work with and have calculated the average cost for the attributes of intrest, I'll now begin to actually compare and test the data and look for any potential issues that could result from drawing any conclusion from the data.
+# Calculating sample size make up and which group pays more for insurance
 
 #determining the portion of the sample size men and women both make up, as well as caluculating the percent differnce in the amount they pay
 number_of_females = print('Females account for ' + str(round(female_count/sample_size, 2)*100) + '% of the sample size')
@@ -56,7 +56,6 @@ elif average_female_cost > average_male_cost:
 else:
     print('Men and women pay the same amount on average for insurance')
 
-#determining the portion of the sample size both age groups make up, as well as caluculating the percent differnce in the amount they pay
 number_of_under_40 = print('Individuals under 40 years of age account for '+ str(round(under_40_count/sample_size, 2)*100) + '% of the sample size' )
 number_of_equal_or_over_40 = print('Individuals 40 years of age or older account for '+ str(round(equal_or_over_40_count/sample_size, 2)*100) + '% of the sample size' )
 if average_under_40_cost > average_equal_or_over_40_cost:
