@@ -7,7 +7,7 @@ The juypter notebook file was the original project I wrote, and the file titled 
 The goal is to continue to comeback and improve upon the orginial code so that I can track the progression of my understanding.
 
 Current improved variations:
-Utilizing_Dataframes_and_SQL - focused on using sql queirie
-Utilizing_Dataframes_Pandas - focused on using different panda operations
+* Utilizing_Dataframes_and_SQL - focused on using sql queirie
+* Utilizing_Dataframes_Pandas - focused on using different panda operations
 
 
