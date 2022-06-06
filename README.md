@@ -1,13 +1,15 @@
 # Medical-Insurance-Project
 
-This was my first real portfolio project, which I conducted after completing python fundamentals in codeacademy. We were given an Excel file of insurance data and were asked to import the file and conduct an analysis of the data, what we chose to analyze was up to us. I decided to compare the affect that age vs gender had on total insurance cost.
+This was my first real portfolio project, which I conducted after completing python fundamentals in codeacademy. We were given an Excel file of insurance data and were asked to import the file and conduct an analysis of the data, what we chose to analyze was up to us. I decided to compare the affect that age vs gender had on insurance cost.
 
-The juypter notebook file was the original project I wrote, and the file titled original script is the notebook convereted to a python file. 
+File Descriptions:
+* Age_vs_Gender_Study - The most up-to-date project,  goal is to return to this project frequently, making improvements as my understanding grows.
 
-The goal is to continue to comeback and improve upon the orginial code so that I can track the progression of my understanding.
+* Original_study - As the name implies this is the original project I wrote up after completing python fundamentals, it serves as a marker to compare my progression in python against. 
 
-Current improved variations:
-* Utilizing_Dataframes_and_SQL - focused on using sql queirie
-* Utilizing_Dataframes_Pandas - focused on using different panda operations
+* Utilizing_SQL & Dataframe_Practice - are enviorments for me to mess around with the capabilities of SQL and Pandas and see how I can use them to improve my project.
+
+
+
 
 
