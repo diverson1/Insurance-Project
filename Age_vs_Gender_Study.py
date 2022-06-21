@@ -1,7 +1,11 @@
 # Importing CSV
 import pandas as pd
 df= pd.read_csv('https://raw.githubusercontent.com/diverson1/Medical-Insurance-Project/master/insurance.csv')
+
+# Getting a feel for what the data looked like
+
 print(df.head())
+print(df.describe(include= 'all'))
 
 # Finding total sample size and size of each group of interest
 
