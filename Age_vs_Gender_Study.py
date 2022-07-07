@@ -1,6 +1,7 @@
 # Importing CSV
 import pandas as pd
 import matplotlib.pyplot as plt 
+import seaborn as sns
 df= pd.read_csv('https://raw.githubusercontent.com/diverson1/Medical-Insurance-Project/master/insurance.csv')
 
 # Getting a feel for what the data looked like
@@ -56,5 +57,6 @@ else:
 
 # Conclusion: Age has a significantly higher affect on insurance cost than gender. There was no sample size issues that would call into question the validity of the results
 
-plt.hist(df.charges)
+sns.histplot(x='charges', data=df)
 plt.show()
+plt.close()
